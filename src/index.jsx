@@ -9,4 +9,7 @@ import App from './components/App'
 
 import './less/app.less'
 
-ReactDOM.render(<App />, document.querySelector('div#root'))
+ReactDOM.render(
+    Hello, world,
+    document.getElementById('root')
+  );
